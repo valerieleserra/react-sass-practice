@@ -1,0 +1,8 @@
+footer {
+    background-color: $pale-color;
+
+    &__container > span{
+        font-size: .5rem;
+        text-align: center;
+    }
+}

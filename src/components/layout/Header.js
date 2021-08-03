@@ -1,11 +1,18 @@
-function Header(){
+import { Navbar, Container, Nav } from 'react-bootstrap'
+
+export default function Header(){
     return(
-        <div> hi </div>
+        <>
+            <Navbar bg="dark" variant="dark">
+                <Container>
+                    <Navbar.Brand href='/home'>Navbar</Navbar.Brand>
+                        <Nav className="me-auto">
+                            <Nav.Link href='/services'>Services</Nav.Link>
+                            <Nav.Link href='/about'>About</Nav.Link>
+                        </Nav>
+                </Container>
+            </Navbar>
+        </>
     )
 }
 
-// export default function Header(){
-//     return <div>working...</div>
-// }
-
-export default Header

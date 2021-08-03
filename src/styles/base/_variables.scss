@@ -1,0 +1,9 @@
+$primary-color: #457d9b;
+$lightblue-color: #a8dadc;
+$darkblue-color:#1d3557;
+$pale-color:#f1faee;
+$red-color:#e63946;
+
+@mixin default-font{
+    font-family: 'Roboto', sans-serif;
+}

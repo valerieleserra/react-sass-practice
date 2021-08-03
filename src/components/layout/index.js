@@ -1,15 +1,14 @@
 import Header from "./Header"
 import Footer from "./Footer"
 
-export default function Layout(){
+export default function Layout(props){
     return(
         <>
             <Header />
-            <main>
-                <h1>Main container</h1>
-            </main>
+                <main>
+                    {props.children}
+                </main>
             <Footer />
         </>
-
     )
 }

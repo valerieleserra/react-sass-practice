@@ -1,0 +1,31 @@
+//& means services
+
+.services{
+  background-color: $pale-color;
+  display: flex;
+  justify-content: space-evenly;
+
+  
+    
+  &__item {
+        background-color: $red-color;
+        max-width: 300px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 3rem;
+        
+
+      &--img {
+          max-width: 150px;
+
+      }
+
+      &--p {
+          color: $pale-color;
+
+      }
+
+    }
+
+}

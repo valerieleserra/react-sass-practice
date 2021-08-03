@@ -1,5 +1,8 @@
-.cards__section{
-    display:flex;
-    justify-content: space-evenly;
-    
-}
+.cards__section {
+    display: flex;
+    justify-content: space-between;
+  
+    &--item{
+      width: 18rem;
+    }
+  }

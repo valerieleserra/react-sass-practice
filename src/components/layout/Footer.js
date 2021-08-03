@@ -3,7 +3,7 @@ const Footer = () => {
         
             <footer className="footer">
                 <div className="container footer__container">
-                     <span className="text-muted">Place sticky footer content here.</span>
+                     <span className="text-muted">Thanks for visiting!</span>
                </div>
             </footer>
        

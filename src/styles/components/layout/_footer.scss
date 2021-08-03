@@ -1,8 +1,8 @@
-footer {
+.footer {
     background-color: $pale-color;
-
-    &__container > span{
-        font-size: .5rem;
-        text-align: center;
+  
+    &__container {
+      font-size: 0.5rem;
+      text-align: center;
     }
-}
+  }

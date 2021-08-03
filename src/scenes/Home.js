@@ -14,7 +14,7 @@ export default function Home(){
     <img
     className="d-block w-100"
     src={slide1}
-    alt="First slide"
+    alt="slider1"
     />
 <Carousel.Caption>
     <h3>First slide label</h3>
@@ -25,7 +25,7 @@ export default function Home(){
     <img
     className="d-block w-100"
     src={slide2}
-    alt="Second slide"
+    alt="slider2"
     />
 
 <Carousel.Caption>
@@ -37,7 +37,7 @@ export default function Home(){
     <img
     className="d-block w-100"
     src={slide3}
-    alt="Third slide"
+    alt="slider3"
     />
 
 <Carousel.Caption>
